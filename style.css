@@ -1,0 +1,25 @@
+.card-container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #908888e4;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-container {
+  align-items: stretch;
+}
+.text-left {
+  font-style: normal;
+  text-align: left;
+  color: #3e3e3ee4;;
+}
